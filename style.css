@@ -159,7 +159,7 @@ body {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .logo img {
         width: 42px;
     }
@@ -185,7 +185,7 @@ body {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .logo img {
         width: 42px;
     }
@@ -207,7 +207,7 @@ body {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
     .logo img {
         width: 45px;
     }
