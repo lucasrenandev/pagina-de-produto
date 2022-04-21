@@ -161,7 +161,7 @@ body {
 
 @media (max-width: 500px) {
     .logo img {
-        width: 45px;
+        width: 42px;
     }
 
     .menu-items a {
@@ -169,19 +169,19 @@ body {
     }
 
     .menu-items a img {
-        width: 30px;
+        width: 29px;
     }
 
     .content h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .content p {
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .content a {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
@@ -195,11 +195,11 @@ body {
     }
 
     .content h1 {
-        font-size: 33px;
+        font-size: 27px;
     }
 
     .content p {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .content a {
@@ -216,11 +216,11 @@ body {
         display: none;
     }
     .content h1 {
-        font-size: 28px;
+        font-size: 25px;
     }
 
     .content p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .content a {
