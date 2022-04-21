@@ -157,14 +157,18 @@ body {
         align-items: center;
     }
 
+    .content h1 {
+        font-size: 45px;
+    }
+
     .left-side span {
         text-align: center;
     }
 
     .left-side a {
         margin: auto;
-        padding: 6px;
-        font-size: 14px;
+        padding: 8px;
+        font-size: 15px;
         margin-bottom: 30px;
     }
 
