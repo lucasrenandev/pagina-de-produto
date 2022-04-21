@@ -104,7 +104,7 @@ body {
     background-color: #fff;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 800px) {
     .logo img {
         width: 50px;
     }
@@ -130,11 +130,11 @@ body {
     }
 
     .left-side h1 {
-        font-size: 45px;
+        font-size: 35px;
     }
 
     .left-side p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .left-side span {
@@ -144,7 +144,7 @@ body {
     .left-side a {
         margin: auto;
         padding: 6px;
-        font-size: 15px;
+        font-size: 14px;
         margin-bottom: 30px;
     }
 
