@@ -207,7 +207,7 @@ body {
     }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 320px) {
     .logo img {
         width: 45px;
     }
@@ -216,14 +216,18 @@ body {
         display: none;
     }
     .content h1 {
-        font-size: 25px;
+        font-size: 18px;
     }
 
     .content p {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .content a {
-        font-size: 14px;
+        font-size: 12px;
+    }
+
+    .left-side span {
+        font-size: 25px;
     }
 }
