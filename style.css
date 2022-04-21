@@ -104,6 +104,39 @@ body {
     background-color: #fff;
 }
 
+@media (max-width: 1200px) {
+    .logo img {
+        width: 45px;
+    }
+
+    .menu-items a img {
+        width: 30px;
+    }
+    .menu {
+        margin-bottom: 40px;
+    }
+
+    .content h1 {
+        font-size: 45px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+
+    .left-side {
+        margin-right: 30px;
+    }
+
+    .right-side {
+        margin-bottom: 50px;
+    }
+
+    .right-side img {
+        max-width: 250px;
+    }
+}
+
 @media (max-width: 992px) {
     .logo img {
         width: 45px;
@@ -122,7 +155,6 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 40px;
     }
 
     .left-side span {
@@ -131,12 +163,17 @@ body {
 
     .left-side a {
         margin: auto;
-        font-size: 18px;
+        padding: 6px;
+        font-size: 14px;
         margin-bottom: 30px;
     }
 
     .left-side p {
         font-size: 18px;
+    }
+
+    .right-side {
+        margin-bottom: 50px;
     }
 
     .right-side img {
@@ -235,19 +272,19 @@ body {
     }
 
     .content h1 {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .content p {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .content a {
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 300px) {
     .logo img {
         width: 45px;
     }
@@ -264,10 +301,8 @@ body {
     }
 
     .content a {
-        font-size: 12px;
+        font-size: 14px;
     }
 
-    .left-side span {
-        font-size: 25px;
-    }
+    
 }
