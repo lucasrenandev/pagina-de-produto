@@ -1,2 +1,2 @@
 # pagina-de-produto
- 
+ Responsive
