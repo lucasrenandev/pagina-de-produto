@@ -104,6 +104,31 @@ body {
     background-color: #fff;
 }
 
+@media (min-width: 1200px) {
+
+    .menu-items a img {
+        width: 40px;
+    }
+    .menu {
+        margin-bottom: 40px;
+    }
+    .content p {
+        font-size: 16px;
+    }
+
+    .left-side {
+        margin-right: 40px;
+    }
+
+    .right-side {
+        margin-bottom: 40px;
+    }
+
+    .right-side img {
+        width: 300px;
+    }
+}
+
 @media (max-width: 1200px) {
     .logo img {
         width: 45px;
@@ -139,7 +164,7 @@ body {
 
 @media (max-width: 992px) {
     .logo img {
-        width: 45px;
+        width: 75px;
     }
 
     .menu {
@@ -147,7 +172,7 @@ body {
     }
 
     .menu-items a img {
-        width: 28px;
+        width: 45px;
     }
     .content {
         height: auto;
@@ -181,13 +206,13 @@ body {
     }
 
     .right-side img {
-        max-width: 250px;
+        max-width: 300px;
     }
 }
 
 @media (max-width: 800px) {
     .logo img {
-        width: 50px;
+        width: 60px;
     }
 
     .menu {
@@ -199,7 +224,7 @@ body {
     }
 
     .menu-items a img {
-        width: 30px;
+        width: 35px;
     }
 
     .content {
@@ -235,14 +260,14 @@ body {
     }
 
     .right-side img {
-        max-width: 250px;
+        max-width: 300px;
     }
 
 }
 
 @media (max-width: 500px) {
     .logo img {
-        width: 42px;
+        width: 60px;
     }
 
     .menu-items a {
@@ -250,7 +275,7 @@ body {
     }
 
     .menu-items a img {
-        width: 29px;
+        width: 35px;
     }
 
     .content h1 {
@@ -264,15 +289,19 @@ body {
     .content a {
         font-size: 14px;
     }
+
+    .right-side img {
+        max-width: 250px;
+    }
 }
 
 @media (max-width: 400px) {
     .logo img {
-        width: 42px;
+        width: 60px;
     }
 
     .menu-items a img {
-        width: 27px;
+        display: none;
     }
 
     .content h1 {
@@ -285,6 +314,10 @@ body {
 
     .content a {
         font-size: 13px;
+    }
+
+    .right-side img {
+        max-width: 200px;
     }
 }
 
@@ -305,7 +338,12 @@ body {
     }
 
     .content a {
-        font-size: 14px;
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .right-side img {
+        width: 250px;
     }
 
     
