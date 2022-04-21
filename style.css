@@ -104,7 +104,47 @@ body {
     background-color: #fff;
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 992px) {
+    .logo img {
+        width: 45px;
+    }
+
+    .menu {
+        margin-bottom: 40px;
+    }
+
+    .menu-items a img {
+        width: 28px;
+    }
+    .content {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .left-side span {
+        text-align: center;
+    }
+
+    .left-side a {
+        margin: auto;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .left-side p {
+        font-size: 18px;
+    }
+
+    .right-side img {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 800px) {
     .logo img {
         width: 50px;
     }
