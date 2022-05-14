@@ -101,66 +101,6 @@ body {
     align-items: center;
 }
 
-@media (min-width: 1200px) {
-
-    .menu-items a img {
-        width: 40px;
-    }
-    .menu {
-        margin-bottom: 40px;
-    }
-    .content p {
-        font-size: 16px;
-    }
-
-    .left-side {
-        margin-right: 40px;
-    }
-
-    .right-side {
-        margin-bottom: 40px;
-    }
-
-    .right-side img {
-        width: 300px;
-    }
-}
-
-@media (max-width: 1200px) {
-    .logo img {
-        width: 45px;
-    }
-
-    .menu-items a img {
-        width: 30px;
-    }
-    .menu {
-        margin-bottom: 40px;
-    }
-
-    .content h1 {
-        font-size: 45px;
-    }
-
-    .content p {
-        font-size: 18px;
-    }
-
-    .left-side {
-        margin-right: 30px;
-    }
-
-    .right-side {
-        height: 500px;
-        margin-bottom: 50px;
-    }
-
-    .img img {
-        max-width: 300px;
-    }
-
-}
-
 @media (max-width: 992px) {
     .logo img {
         width: 75px;
