@@ -114,6 +114,8 @@ body {
     max-width: 100%;
 }
 
+/* responsive */
+
 @media (max-width: 1150px) {
     
     body {
